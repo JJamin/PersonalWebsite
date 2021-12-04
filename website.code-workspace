@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Coding/Apps/Party"
+		},
+		{
+			"path": "../../../Homework/Comp Sci 178/HW3/178-hw3-code"
+		},
+		{
+			"path": "../../../Homework/Comp Sci 178/HW4/178-hw4-code"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "JodyJamin v3.0"
+	}
+}
