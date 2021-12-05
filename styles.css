@@ -16,6 +16,11 @@ html, body {
 }
 
 /*-----  Background  -----*/
+#background{
+    position: absolute;
+    background-color: #fdfbf9;
+    z-index: -1;
+}
 
 .background{
     position:absolute;
@@ -24,7 +29,6 @@ html, body {
     width: 100%;
     overflow: hidden;
     z-index: -1;
-    background-color: #fdfbf9;
 }
 
 .background #rectangle1{
@@ -46,7 +50,7 @@ html, body {
     width: 60%;
     height: 50%;
     background-color: #3961D1;
-    opacity: 30%;
+    opacity: 20%;
     transform: rotate(60deg);
     filter: blur(6rem);
 }
@@ -126,7 +130,7 @@ html, body {
     background-color: #FFC2BD;
 }
 
-/*-----  Main  -----*/
+/*-----  content  -----*/
 
 .content{
     position: absolute;
