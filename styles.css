@@ -19,115 +19,14 @@ html, body {
 #background{
     position: absolute;
     background-color: #fdfbf9;
+    z-index: -2;
+    filter: blur(100px);
+}
+
+#bubbles{
+    position: absolute;
+    background-color: #f000;
     z-index: -1;
-}
-
-.background{
-    position:absolute;
-    margin: 0;
-    height: 100vh;
-    width: 100%;
-    overflow: hidden;
-    z-index: -1;
-}
-
-.background #rectangle1{
-    position: absolute;
-    width: 20%;
-    height: 40%;
-    top: -64px;
-    right: -0px;
-    background-color: #ECBD53;
-    opacity: 40%;
-    transform: rotate(50deg);
-    filter: blur(8rem);
-}
-
-.background #rectangle2{
-    position: absolute;
-    bottom: -15vw;
-    left: -15vw;
-    width: 60%;
-    height: 50%;
-    background-color: #3961D1;
-    opacity: 20%;
-    transform: rotate(60deg);
-    filter: blur(6rem);
-}
-
-.background .fixed-bubbles .b-large{
-    position: absolute;
-    width: 3vh;
-    height: 3vh;
-    border-radius: 50%;
-}
-
-.background .fixed-bubbles .b-medium{
-    position: absolute;
-    width: 2vh;
-    height: 2vh;
-    border-radius: 50%;
-}
-
-.background .fixed-bubbles .b-small{
-    position: absolute;
-    width: 1vh;
-    height: 1vh;
-    border-radius: 50%;
-}
-
-.background .fixed-bubbles #b1{
-    bottom: 12vh;
-    left: 16vw;
-    background-color: #7c70ff;
-}
-
-.background .fixed-bubbles #b2{
-    bottom: 22vh;
-    right: 12vw;
-    background-color: #C0F1A9;
-}
-
-.background .fixed-bubbles #b3{
-    top: 15vh;
-    right: 20vw;
-    background-color: #FFD67F;
-}
-
-.background .fixed-bubbles #b4{
-    bottom: 24vh;
-    left: 11vw;
-    background-color: #b9a0ff;
-}
-
-.background .fixed-bubbles #b5{
-    bottom: 13vh;
-    right: 14vw;
-    background-color: #8AD3B7;
-}
-
-.background .fixed-bubbles #b6{
-    top: 6vh;
-    right: 18vw;
-    background-color: #FFB064;
-}
-
-.background .fixed-bubbles #b7{
-    bottom: 30vh;
-    left: 20vw;
-    background-color: #5879E2;
-}
-
-.background .fixed-bubbles #b8{
-    bottom: 25vh;
-    right: 20vw;
-    background-color: #AAE8DB;
-}
-
-.background .fixed-bubbles #b9{
-    top: 12vh;
-    right: 28vw;
-    background-color: #FFC2BD;
 }
 
 /*-----  content  -----*/
