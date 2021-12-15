@@ -101,3 +101,23 @@ window.addEventListener("resize", function(event) {
     createBackground()
     drawBubbles()
 });
+
+function findScreenCoords(mouseEvent)
+{
+  var xpos;
+  var ypos;
+  if (mouseEvent)
+  {
+    //FireFox
+    xpos = mouseEvent.screenX;
+    ypos = mouseEvent.screenY;
+  }
+  else
+  {
+    //IE
+    xpos = window.event.screenX;
+    ypos = window.event.screenY;
+  }
+  document.getElementById("screenCoords").innerHTML = xpos + ", " + ypos;
+}
+document.getElementById("screenBox").onmousemove = findScreenCoords; 
